@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: garamond;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/9.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+h1{
+    position:static ;
+    margin-left: 10%;
+    color: rgb(240, 240, 240);
+}
+.pro img{
+height: 500px;
+margin-top: 3%;
+margin-left: 7%;
+}
+.about{
+    color: lavender;
+    text-align: left;
+    margin-left: 40%;
+   margin-top: -20%;
+   font-size: 40px;
+   font-style: bold;
+}
+.button{
+    position: static;
+    margin-top: 1%;
+    margin-left: 40%;
+}
+.btn1,.btn2,.btn3,.btn4{
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+    background-color: #fff;
+    color: black;
+
+}
